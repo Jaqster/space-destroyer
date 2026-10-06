@@ -18,7 +18,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
 })
 let projectile: Sprite = null
 let ship: Sprite = null
-music.play(music.stringPlayable("C5 A B G A F G E ", 120), music.PlaybackMode.InBackground)
+game.splash("My space game")
 let asteroids = [
 assets.image`asteroid1`,
 assets.image`asteroid2`,
