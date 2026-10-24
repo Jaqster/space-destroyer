@@ -192,6 +192,18 @@ c a 8 a a c c c c a a f f f 8 a
 . . . 7 7 . . . 
 . . . 7 7 . . . 
 `;
+            case "image10":
+            case "saucer":return img`
+. . . . . . 9 9 9 9 . . . . . . 
+. . . . . 9 1 1 9 9 9 . . . . . 
+. . . . 9 1 9 9 9 9 9 9 . . . . 
+. . . . 9 9 9 9 9 9 9 9 . . . . 
+. . b b d d d d d d d d b b . . 
+. b d d d d d d d d d d d d b . 
+c b 5 b b 2 b b b b 2 b b 5 b c 
+. c c b b b b b b b b b b c c . 
+. . . c c c c c c c c c c . . . 
+`;
         }
         return null;
     })

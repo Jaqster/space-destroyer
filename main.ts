@@ -16,6 +16,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Enemy, function (sprite, otherSp
     sprite.startEffect(effects.fire, 200)
     info.changeLifeBy(-1)
 })
+let saucer: Sprite = null
 let projectile: Sprite = null
 let ship: Sprite = null
 game.splash("My space game")
@@ -37,4 +38,9 @@ game.onUpdateInterval(500, function () {
     projectile = sprites.createProjectileFromSide(asteroids[randint(0, asteroids.length - 1)], 0, 75)
     projectile.setKind(SpriteKind.Enemy)
     projectile.x = randint(10, 150)
+})
+game.onUpdateInterval(4000, function () {
+    saucer = sprites.createProjectileFromSide(assets.image`saucer`, 50, 15)
+    saucer.setKind(SpriteKind.Enemy)
+    saucer.y = randint(10, 40)
 })

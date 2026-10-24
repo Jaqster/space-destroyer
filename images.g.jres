@@ -44,6 +44,11 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "laserbeam"
     },
+    "image10": {
+        "data": "hwQQAAkAAAAAAAAMAAAAAAAAsMsAAAAAAADbxQAAAAAAANu7DAAAAACZ3bsMAAAAkJHdsgwAAAAZmd27DAAAABmZ3bsMAAAAmZnduwwAAACZmd27DAAAAJCZ3bIMAAAAAJnduwwAAAAAANu7DAAAAAAA28UAAAAAAACwywAAAAAAAAAMAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "saucer"
+    },
     "*": {
         "mimeType": "image/x-mkcd-f4",
         "dataEncoding": "base64",
